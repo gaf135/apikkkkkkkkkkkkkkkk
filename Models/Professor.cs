@@ -1,4 +1,4 @@
-﻿namespace apikkkkkkkkkkkkkkkk.Controllers
+﻿namespace apikkkkkkkkkkkkkkkk.Models
 {
     public class Professor
     {
@@ -8,7 +8,7 @@
         public string? Pai { get; set; }
         public string? Mae { get; set; }
         public string? ComponenteCurricular { get; set; }
-        public Escola? Escola { get; set; }
-        public Aluno? Aluno { get; set; }
+        public int EscolaID { get; set; }
+        public int AlunoID { get; set; }
     }
 }
